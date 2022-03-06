@@ -12,6 +12,9 @@
     color: #fff;
 }
 
+#logo-nav {
+   margin-left: 35px;
+}
 .carousel-inner {
     height:90vh;
 }
