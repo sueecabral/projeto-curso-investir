@@ -37,13 +37,16 @@
     background-image: url(imagens/fundoazul.jpg);
     height: 80vh;
     background-repeat: repeat;
-    margin-bottom: 0px;
+    
+    
 }
 
 #quemSomos p {
-    width: auto;
     text-align: center;
     color: #fff;
+    justify-content: center;
+    position: inherit;
+    
 }
 
 #quemSomos h1 {
@@ -74,3 +77,58 @@
  .col order-last {
      margin-top: 5%;
  }
+ 
+ 
+
+ @media screen and (max-width: 480px){
+    hr {
+        display: none;
+    }
+
+    #menu {
+        display: inline;
+    }
+
+    #logo-nav {
+        margin-top: -16%;
+        text-align: center;
+        margin-left: 120px;
+    }
+
+    #carouselExampleIndicators {
+        margin-bottom: -70%;
+    }
+    .carousel-indicators{
+        margin-bottom: 70%;
+    }
+
+    .carousel-control-prev {
+        margin-bottom: 60%;
+    }
+
+    .carousel-control-next{
+        margin-bottom: 60%;
+    }
+
+    #nossosCursos {
+      height: 50vh;
+      margin-bottom: -102%;
+      text-align: center;
+    }
+
+    #nossosCursos img{
+        width: 150px;
+        height: 100px;
+    }
+
+    #quemSomos {
+        margin-top: 100%;
+    }
+    #nossosClientesParagrafo{
+        margin-top: 10%;
+    }
+
+}
+/*#carouselExampleCaptions {
+      margin-bottom: -112%;  
+    }*/
